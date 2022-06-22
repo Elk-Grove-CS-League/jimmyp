@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "chalk": "^5.0.1",
+    "dayjs": "^1.11.3",
     "prompt-sync": "^4.2.0"
   },
-  "type" : "module"
+  "type": "module"
 }
