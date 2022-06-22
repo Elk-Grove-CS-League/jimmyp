@@ -9,3 +9,7 @@ if(age >= 55){
 } else {
     console.log("kid");
 }
+
+let name = "john";
+let time = "1 am";
+console.log(`Hey ${name}, I know you're ${age} but that's no excuse to be out until ${time}`);
