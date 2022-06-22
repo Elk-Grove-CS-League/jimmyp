@@ -31,6 +31,13 @@ if(response == "blue"){
         console.log(chalk.bold.red("You are dead"));
     } else {
         response = ask("You survey your surroundings. At the far end of the cave you notice an orange lamplight, the shadows illuminating a small crawlspace", ['enter the crawlspace', 'peak into the crawlspace']);
+        if(response == "peak into the crawlspace"){
+            console.log("You take a look into the crawlspace, and you make out what appears to be an empty room with a bed and table. It looks like a jail cell. Lost in thought, you fail to notice debris falling from the ceiling, as a stalagmite breaks loose and falls straight down towards you.");
+            console.log(chalk.red("Why would you hesitate?"));
+            console.log(chalk.bold.red("You are dead"));
+        } else {
+            ask("You enter the crawlspace and emerge to a from that resembles a jail cell. You look around to see the lamp on top of a table, illuminating a scribbled note.", ["pick up lamp", ["pick up note"], ["go back"]]);
+        }
     }
 } else {
     response = ask("You are in a sprawling forest, the echoes of the wildlife ring far. Faintly you hear rumbling in the distance. What do you do", ['go towards the noise', 'move away from the noise', 'look for a hiding place']);
