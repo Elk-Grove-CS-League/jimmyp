@@ -25,7 +25,7 @@ if(response == "blue"){
         console.log("You slowly enter the water, paying no mind to the floor descending as you walk. The water is so tranquil, you enter an almost trance like state as the liquidy grave rises to shoulder level. With a smile on your face, you take another 3 steps and disappear.")
         console.log(chalk.red("You can't swim"));
         console.log(chalk.bold.red("You are dead"));
-    } else if (response == "lay down"){
+    } else if (response == "lay down and relax"){
         console.log("You lay down on the glassy shores, the sounds of the waves putting your mind at ease. Before you know it, you've fallen asleep, and you have a dream. You are at the beach and your friends are burying you with sand. While they are out getting a drink, the tide rolls in.")
         console.log(chalk.red("Immobile. You drown"));
         console.log(chalk.bold.red("You are dead"));
