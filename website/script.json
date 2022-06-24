@@ -1,0 +1,7 @@
+{
+    "story1": {
+        "text1" : "what colors are around",
+        "choice1" : ["blue", "green"]
+    }
+
+}
