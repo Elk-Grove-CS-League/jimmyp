@@ -1,9 +1,4 @@
-const fs = require('fs')
-let output = {}
-fs.readFile('./script.json', 'utf-8', (err, data) => {
-  if (err) throw err
-  output = JSON.parse(data)
-});
+//const story = require('./script.json');
 
 let startButton = document.getElementById("startButton");
 
@@ -14,8 +9,10 @@ function greet(){
 }
 
 function playStory(num){
-    document.getElementById("header").hidden =  true;
-    document.getElementById("story").hidden = false;
-    //document.getElementById("story").write(output.story1.text1);
+    document.getElementById("header").style.display = "none";
+    document.getElementById("storyOutput").style.display = "block";
+    //document.getElementById("header").style.display = "none";
+    //document.getElementById("storyOutput").style.display = "block";
+    document.getElementById("storyOutput").innerHTML = ("What colors do you see around you");
     //document.getElementById("storyOutput").write("what colors do you see around you")
 }

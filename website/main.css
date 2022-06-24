@@ -11,5 +11,15 @@ body {
 #header {
     color: rgb(36, 6, 64);
     text-align: center;
+    display: block;
     
+}
+
+#storyOutput {
+    display: none;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.737);
+    font-size: larger;
+    font-weight: bolder;
+    max-height: 10vh;
 }
